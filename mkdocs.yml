@@ -3,8 +3,8 @@ site_author: Paul Schickler
 ## copyright: copyright Paul Schickler 2021
 nav:
     - Home: index.md
-    - Parts: parts/partslist.md
-    - Tasks: tasks/taskorder.md
+    - Parts: partslist.md
+    - Tasks: taskorder.md
     - Tools & Supplies: toolsetc.md
     - Safety: safety.md
 

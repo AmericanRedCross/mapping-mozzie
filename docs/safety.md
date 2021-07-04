@@ -1,5 +1,5 @@
 # Safety
-Don't start this project unless you know what you are doing, and know how to do it safely. It is not feasible to address proper safety practices here, but below are a few safety reminders:
+Don't start this project unless you know what you are doing, and know how to do it safely. It is not feasible to fully address proper safety practices here, but below are a few safety reminders:
 
 ## Battery Safety
 * Lipo batteries can be very dangerous, even when they are not being used. Make sure you know what you are doing and take proper safety precautions. They can unexpectedly combust and start **dangerous fires (with dangerous smoke)**.
