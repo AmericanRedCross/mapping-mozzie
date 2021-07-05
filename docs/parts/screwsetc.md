@@ -5,12 +5,12 @@ Ideally everything on this list should be metric, but the initial build was done
 ### Screws
 | thread | length | qty | descr | nuts* | spacer length** | task(s) |
 |--|--|--|--|--|--|--|
-| 6-32 | [0.375"](https://www.servocity.com/6-32-x-0-375-3-8-zinc-plated-socket-head-machine-screw/) | 4 | Zinc-Plated Socket Head Machine Screw | yes | -- | [frame brackets](frame_brackets.md) |
-| 6-32 | [1.25"](https://www.servocity.com/6-32-x-1-25-1-1-4-zinc-plated-socket-head-machine-screw/) | 4 | Zinc-Plated Socket Head Machine Screw | yes | 0.375" | [Airframe Close](airframe_close.md) front |
-| 6-32 | [1.5"](https://www.servocity.com/6-32-x-1-50-1-1-2-zinc-plated-socket-head-machine-screw/) | 4 | Zinc-Plated Socket Head Machine Screw | yes | 1" | [Airframe Close](airframe_close.md) rear |
-| 6-32 | [0.875"](https://www.servocity.com/6-32-x-0-875-7-8-zinc-plated-socket-head-machine-screw/) | 4 | Zinc-Plated Socket Head Machine Screw | yes | 0.375" | [Airframe Close](airframe_close.md) camera |
-| 2-56 | [0.75"](https://www.homedepot.com/p/Everbilt-2-56-x-3-4-in-Phillips-Flat-Head-Zinc-Plated-Machine-Screw-8-Pack-803581/204791282) | 4 | Zinc Plated Phillips Flat Head Machine Screw | yes | -- | [camera assemble](camera_assemble.md) |
-| M3 | [8mm](https://www.pololu.com/product/1076) | 20 | Zinc Plated Phillips Pan Head Machine Screw | just 4 | -- | [quadarm assemble](quadarm_assemble.md), [plane motor mount](../tasks/planemotor_mount.md) |
+| 6-32 | [0.375"](https://www.servocity.com/6-32-x-0-375-3-8-zinc-plated-socket-head-machine-screw/) | 4 | Zinc-Plated Socket Head Machine Screw | yes | -- | [frame brackets](../tasks/frame_brackets.md) |
+| 6-32 | [1.25"](https://www.servocity.com/6-32-x-1-25-1-1-4-zinc-plated-socket-head-machine-screw/) | 4 | Zinc-Plated Socket Head Machine Screw | yes | 0.375" | [Airframe Close](../tasks/airframe_close.md) front |
+| 6-32 | [1.5"](https://www.servocity.com/6-32-x-1-50-1-1-2-zinc-plated-socket-head-machine-screw/) | 4 | Zinc-Plated Socket Head Machine Screw | yes | 1" | [Airframe Close](../tasks/airframe_close.md) rear |
+| 6-32 | [0.875"](https://www.servocity.com/6-32-x-0-875-7-8-zinc-plated-socket-head-machine-screw/) | 4 | Zinc-Plated Socket Head Machine Screw | yes | 0.375" | [Airframe Close](../tasks/airframe_close.md) camera |
+| 2-56 | [0.75"](https://www.homedepot.com/p/Everbilt-2-56-x-3-4-in-Phillips-Flat-Head-Zinc-Plated-Machine-Screw-8-Pack-803581/204791282) | 4 | Zinc Plated Phillips Flat Head Machine Screw | yes | -- | [camera assemble](../tasks/camera_assemble.md) |
+| M3 | [8mm](https://www.pololu.com/product/1076) | 20 | Zinc Plated Phillips Pan Head Machine Screw | just 4 | -- | [quadarm assemble](../tasks/quadarm_assemble.md), [plane motor mount](../tasks/planemotor_mount.md) |
 |  |  |  |  |  |  |  |
 
 

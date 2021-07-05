@@ -19,8 +19,8 @@ These are the purchased items that become part of the aircraft.
 | [radio antenna](parts/radioantenna.md) | RFDFLEX1 Antenna for use with RFD900x | [RFDesign](http://store.rfdesign.com.au/rfdflex1-900mhz-flexible-pcb-antenna-300mm-rpsma/) | 2 | 14 | 7 |
 | [battery](parts/battery.md)** | Battery Turnigy LiPo 4S 10Ah 12C XT-90 JST-XH (14.8V, 148 Wh) | [HobbyKing](https://hobbyking.com/en_us/turnigy-high-capacity-10000mah-4s-12c-multi-rotor-lipo-pack-w-xt90.html) | 1 | 90 | 902 |
 | [battery velcro straps](parts/battery.md) | For battery attachment to fuselage | [Amazon](https://www.amazon.com/gp/product/B08MZYWQ3L/) | - | 13 | - |
-| [XT connectors](parts/xt.md) | for power loom. XT30, XT60, and XT90 male to XT60 female.  | [hobbyking](www.hobbyking.com) (details [here](parts/xt.md)) | - | 13 | - |
-| [wire](parts/wire.md) | for power loom. 12, 14, 18 and 20AWG, red & black. | [hobbyking](www.hobbyking.com) (details [here](parts/wire.md)) | - | 12 | - |
+| [XT connectors](parts/xt.md) | for power loom. XT30, XT60, and XT90 male to XT60 female.  | [hobbyking](https://www.hobbyking.com) (details [here](parts/xt.md)) | - | 13 | - |
+| [wire](parts/wire.md) | for power loom. 12, 14, 18 and 20AWG, red & black. | [hobbyking](https://www.hobbyking.com) (details [here](parts/wire.md)) | - | 12 | - |
 | [Battery Eliminator Circuit](parts/bec.md) | Turnigy 5A (8-26v) SBEC for Lipo | [HobbyKing](https://hobbyking.com/en_us/turnigy-5a-8-26v-sbec-for-lipo.html) | 2 | 6 | 18 |
 | [quad arm material](parts/quadarm.md) | Carbon fiber pultruded strip (1000mm x 20mm x 4mm) | [Carbon Kevlar Supply](https://carbonkevlarsupply.com/products/1-4mm-x-20mm-1000mm-pultruded-flat-carbon-fiber-bar-100-pultruded-high-strength-carbon-fiber-used-for-drones-radio-controlled-vehicles-projects-requiring-high-strength-components) | 1 | 14 | 221 |
 | [quad ESC](parts/quadesc.md) | Electronic Speed Controller 30A | [rotorgeeks](https://rotorgeeks.com/spedix-es30-hv-esc) | 4 | 13 | 8 |
@@ -33,7 +33,7 @@ These are the purchased items that become part of the aircraft.
 | [plane prop bushing](parts/planeprop.md) | Aluminum, 8mm long, 8mm OD, 6mmID | [getFPV](https://www.getfpv.com/graupner-prop-reducer-8mm-to-6mm-4pcs.html) | 1 | 1 | 4 |
 | [plane prop stop](parts/planeprop.md) | thin aluminum or old credit card piece | - | - | - | - |
 | [servo lead extensions](parts/servoext.md) | For servos and for quad ESCs, bag of 5 | [HobbyKing](https://hobbyking.com/en_us/300mm-servo-lead-extension-jr-with-hook-26awg-5pcs-bag.html) | 2 | 3 | - |
-| [brackets](parts/brackets.md) | Two for flight controller, one for pitot tube | [servocity](www.servocity.com) (details [here](parts/brackets.md)) | - | 6 | 33 |
+| [brackets](parts/brackets.md) | Two for flight controller, one for pitot tube | [servocity](https://www.servocity.com) (details [here](parts/brackets.md)) | - | 6 | 33 |
 | [bolts, nuts, spacers](parts/screwsetc.md) | - | - | - | - | - |
 | [tape](parts/tapeetc.md) | for attaching items to airframe | [Office Depot](https://www.officedepot.com/a/products/717151/Scotch-Extreme-Shipping-Tape-With-Dispenser/) | 1 | 12 | - |
 | [glue](parts/tapeetc.md) | Gorilla Clear Grip Contact Adhesive, Clear | [Amazon](https://www.amazon.com/Gorilla-Clear-Contact-Adhesive-Waterproof/dp/B06WGSRM4Z) | 1 | 8 | - |

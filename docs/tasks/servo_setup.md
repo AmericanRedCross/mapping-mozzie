@@ -5,7 +5,7 @@ This task then finds the middle position of the four servos, then attaches the s
 
 Make sure everything is clear of servos before attaching battery. (They will rotate on connection)
 
-For power you'll need 5V, so the following will be connected: plane’s battery (connected last) –> [XT90 to XT60 adapter](..parts/xt.md) –> plane’s BEC to convert to 5V –> servo tester -> servos.
+For power you'll need 5V, so the following will be connected: plane’s battery (connected last) –> [XT90 to XT60 adapter](../parts/xt.md) –> plane’s BEC to convert to 5V –> servo tester -> servos.
 
 ## steps ##
 1. Connect everything except battery.

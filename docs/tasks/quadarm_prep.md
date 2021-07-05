@@ -10,7 +10,7 @@ Reminder: [work safely](../safety.md), including when working with carbon fiber.
 2. Drill a 9/64" dia hole in the centers of the four pieces.
 
 #### drill holes for fuselage mount
-1. Bolt a  long piece, a short piece, and the [pitot tube bracket](bracket_prep.md) together. The bracket is used here for hole alignment. You can use some of the [6-32 screws](../parts/screws.md) temporarily here, they will be installed at a later step.
+1. Bolt a  long piece, a short piece, and the [pitot tube bracket](bracket_prep.md) together. The bracket is used here for hole alignment. You can use some of the [6-32 screws](../parts/screwsetc.md) temporarily here, they will be installed at a later step.
 2. Now drill the four bolt holes. These four central holes will be used to mount the arm and backplate to the fuselage. Use the bracket to determine hole positions. After each hole is drilled, it helps alignment if you put a bolt thru the additional hole before drilling the next hole.
 3. Unbolt and label the arm and black plate "ATF". "A" is for group A. "T" is for top. "F" is for front. The markings allow easy re-matching and aligning later.
 4. Repeat the last three steps with the other short/long piece combination, except label those two pieces "BTF". (Theoretically the "A" parts will be identical to the "B"" parts, but labeling them "A" and "B" helps keep the parts together that were drilled together)
