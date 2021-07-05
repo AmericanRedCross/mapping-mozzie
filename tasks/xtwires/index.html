@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Paul Schickler">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Xtwires - Mapping Mozzie</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Mapping Mozzie</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../partslist/" class="nav-link">Parts</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../taskorder/" class="nav-link">Tasks</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../toolsetc/" class="nav-link">Tools & Supplies</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../safety/" class="nav-link">Safety</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#xt-to-wires" class="nav-link">XT to wires</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="xt-to-wires">XT to wires</h2>
+<p>Part summary:</p>
+<ul>
+<li>12 AWG, red, 100mm</li>
+<li>12 AWG, blk. 100mm</li>
+<li>14 AWG, red, 300mm</li>
+<li>14 AWG, blk, 300mm</li>
+<li>20 AWG, red, 200mm</li>
+<li>20 AWG, blk, 200mm</li>
+<li>18 AWG, red, 400mm</li>
+<li>18 AWG, blk, 400mm</li>
+<li>XT90 connector</li>
+<li>XT60 connector, qty 2 (or 1 male, 2 female)</li>
+<li>XT30 connector, qty 6 (or 6 female)</li>
+<li>heat shrink 3/16", 140mm (can do 70mm red and 70mm black)</li>
+<li>heat shrink 3/32", 180mm (can do 90mm red and 90mm black)</li>
+</ul>
+<p>General instructions for each line in the table below:</p>
+<ul>
+<li>Cut a length of red cable and a length of black cable.</li>
+<li>Strip a few mm of insulation from ONE end of each wire. The other end will be stripped at a later step.</li>
+<li>Prior to soldering, connect the female and male connectors together in order to prevent deformation. Put tape over the end you aren't soldering to avoid soldering the wrong end.</li>
+<li>Solder the stripped end of the red cable to the + side of the connector (and solder black to -).</li>
+<li>cut 2 pieces of heat shrink. One at time, slide a piece over the wire where it was soldered. Slide it into the connector. You can gently touch around one end of it (the end closest to the XT connector) with a soldering iron to slightly pre-shrink that end. Then it can slide into the end of the XT connector for a better seal. Then use a heat gun to shrink the entire tube.</li>
+<li>Label the connector (per the table) for future reference.</li>
+</ul>
+<p><img alt="some XTs after soldering" src="../../images/some_xts.jpg" /></p>
+<table>
+<thead>
+<tr>
+<th>Connector (label)</th>
+<th>Gage</th>
+<th>Length per wire</th>
+<th>Connector</th>
+<th>Heat Shrink per wire</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Battery (batt)</td>
+<td>12 AWG</td>
+<td>100mm</td>
+<td>XT90 Male</td>
+<td>3:1, 20mm, 3/16" dia</td>
+</tr>
+<tr>
+<td>Power Module (PM)</td>
+<td>14 AWG</td>
+<td>100mm</td>
+<td>XT60 F</td>
+<td>3:1, 20mm, 3/16" dia</td>
+</tr>
+<tr>
+<td>Node 1 (N1)</td>
+<td>14 AWG</td>
+<td>100mm</td>
+<td>XT60 F</td>
+<td>3:1, 15mm, 3/16" dia</td>
+</tr>
+<tr>
+<td>Node 2 (N2)</td>
+<td>14 AWG</td>
+<td>100mm</td>
+<td>XT60 Male</td>
+<td>3:1, 15mm, 3/16" dia</td>
+</tr>
+<tr>
+<td>BEC 1 (B)</td>
+<td>20 AWG</td>
+<td>100mm</td>
+<td>XT30 F</td>
+<td>3:1, 15mm, 3/32" dia</td>
+</tr>
+<tr>
+<td>BEC 2 (B)</td>
+<td>20 AWG</td>
+<td>100mm</td>
+<td>XT30 F</td>
+<td>3:1, 15mm, 3/32" dia</td>
+</tr>
+<tr>
+<td>quad ESC 1 (E)</td>
+<td>18 AWG</td>
+<td>100mm</td>
+<td>XT30 F</td>
+<td>3:1, 15mm, 3/32" dia</td>
+</tr>
+<tr>
+<td>quad ESC 2 (E)</td>
+<td>18 AWG</td>
+<td>100mm</td>
+<td>XT30 F</td>
+<td>3:1, 15mm, 3/32" dia</td>
+</tr>
+<tr>
+<td>quad ESC 3 (E)</td>
+<td>18 AWG</td>
+<td>100mm</td>
+<td>XT30 F</td>
+<td>3:1, 15mm, 3/32" dia</td>
+</tr>
+<tr>
+<td>quad ESC 4 (E)</td>
+<td>18 AWG</td>
+<td>100mm</td>
+<td>XT30 F</td>
+<td>3:1, 15mm, 3/32" dia</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Here are two slightly different approaches for soldering XT connectors: <a href="https://www.youtube.com/watch?v=L19amVtmP2c">If the wire does not really fit into the holes</a> and <a href="https://oscarliang.com/soldering-guide/#xt60">if the wire easily fits into the holes</a>.  </p>
+<p>Suggestion: After this task is complete, immediately continue with the <a href="../nodes/">power loom nodes</a>.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

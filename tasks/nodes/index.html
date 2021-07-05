@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Paul Schickler">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Nodes - Mapping Mozzie</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Mapping Mozzie</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../partslist/" class="nav-link">Parts</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../taskorder/" class="nav-link">Tasks</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../toolsetc/" class="nav-link">Tools & Supplies</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../safety/" class="nav-link">Safety</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#power-loom-nodes" class="nav-link">Power Loom Nodes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="power-loom-nodes">Power Loom Nodes</h2>
+<p>This step involves soldering some distribution joints to create nodes to split power (and ground) from one wire to multiple wires. There are alternatives to soldering, including purchased blocks/connectors/nuts.</p>
+<p>This task, combined with the previous <a href="../xtwires/">XT to wires</a> task, completes the power loom (see image at bottom).</p>
+<p>Ref: Quotes below are from <a href="https://www.instructables.com/Soldering-multiple-wires-for-a-distribution-joint/">Soldering Multiple Wires for a Distribution Joint</a>.</p>
+<p>For each of the nodes listed below, you will be working exclusively with red wires or with black wires. The two are not mixed. The general procedure is as follows:</p>
+<p><strong>Start:</strong> Cut 100 mm of 20 AWG wire (or any size, and any color). Strip all insulation from this piece. Strands of this will be used to make thinner "wrap wires" to wrap the joints. To make each "wrap wire", pull a few strands free and twist them together.</p>
+<p><strong>For each section in the table below:</strong></p>
+<ol>
+<li>Strip the input wire (listed in table).</li>
+<li>Strip the output wires (listed in table).</li>
+<li>Cut the heat shrink (listed in the table). Slide the heat shrink over the input wire, way down, away from the stripped end for now.</li>
+<li>"Bundle the output wires together with whatever temporary method works (tape, zip ties, clamps, all of the above)" while trying "to insert the end of the input wire into the center of the bundle." See image below.</li>
+<li>Wrap the entire bundle tightly with your wrap wire. Excess wrap wire can be trimmed later.</li>
+<li>Solder the joint. It helps to use a broad tip with higher temperatures. "Heat up the joint and melt the solder with the wire, not the soldering iron. You should see the solder flow between the strands through the whole bundle. Work from multiple angles and make sure to get thorough coverage."</li>
+<li>let it cool then trim the excess wrap wire.</li>
+<li>Remove the tape (if applicable), then slide the heat shrink over the joint and shrink it with a heat gun.</li>
+</ol>
+<p><strong>Finish</strong> by connecting the power module (PM02) to the power loom's XT60 connector (the XT60 connector that you labeled "PM")</p>
+<p>You can check work by connecting a battery and using a voltmeter. And/or check resistance.</p>
+<table>
+<thead>
+<tr>
+<th>node</th>
+<th>color</th>
+<th>input wire</th>
+<th>gage</th>
+<th>strip</th>
+<th>heat shrink dia, length</th>
+<th>outputs</th>
+<th>gage</th>
+<th>strip</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MAIN</td>
+<td>red</td>
+<td><a href="../xtwires/">"batt"</a></td>
+<td>12 AWG</td>
+<td>10mm</td>
+<td>3/8", 40mm</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N1</td>
+<td>14AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>PM</td>
+<td>14AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td>20AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td>20AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td>MAIN</td>
+<td>black</td>
+<td>"batt"</td>
+<td>12 AWG</td>
+<td>10mm</td>
+<td>3/8", 40mm</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N1</td>
+<td>14AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>PM</td>
+<td>14AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td>20AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td>20AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td>ESC</td>
+<td>red</td>
+<td>N2</td>
+<td>14AWG</td>
+<td>15mm</td>
+<td>1/4", 40mm</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>wire 350mm</td>
+<td>14 AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>wire 300mm</td>
+<td>14 AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td>ESC**</td>
+<td>black</td>
+<td>N2</td>
+<td>14AWG</td>
+<td>15mm</td>
+<td>1/4", 40mm</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>wire 350mm</td>
+<td>14 AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>wire 300mm</td>
+<td>14 AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td>Front</td>
+<td>red</td>
+<td>ESC (longer)**</td>
+<td>14AWG</td>
+<td>15mm</td>
+<td>3/16", 40mm</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>E</td>
+<td>18AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>E</td>
+<td>18AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td>Front</td>
+<td>black</td>
+<td>ESC (longer)**</td>
+<td>14AWG</td>
+<td>15mm</td>
+<td>3/16", 40mm</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>E</td>
+<td>18AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>E</td>
+<td>18AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td>Rear</td>
+<td>red</td>
+<td>ESC (shorter)**</td>
+<td>14AWG</td>
+<td>15mm</td>
+<td>3/16", 40mm</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>E</td>
+<td>18AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>E</td>
+<td>18AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td>Rear</td>
+<td>black</td>
+<td>ESC (shorter)**</td>
+<td>14AWG</td>
+<td>15mm</td>
+<td>3/16", 40mm</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>E</td>
+<td>18AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>E</td>
+<td>18AWG</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>**After the ESC nodes: temporarily tape the short black to the short red, and the long black to the long red, so they stay together and don't get mixed-up. For the Front node, the input wires are the longer 14 AWG wires from the ESC node you just made. For the Rear node, the input wires are the shorter 14 AWG wires from the ESC node you just made.</p>
+<p><img alt="node" src="../../images/node.jpg" /></p>
+<p><img alt="loom" src="../../images/loom.jpg" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

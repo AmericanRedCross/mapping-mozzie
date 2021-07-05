@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Paul Schickler">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Cameraplates - Mapping Mozzie</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Mapping Mozzie</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../partslist/" class="nav-link">Parts</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../taskorder/" class="nav-link">Tasks</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../toolsetc/" class="nav-link">Tools & Supplies</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../safety/" class="nav-link">Safety</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#camera-mount-plates" class="nav-link">Camera mount plates</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#steps" class="nav-link">steps</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="camera-mount-plates">Camera mount plates</h2>
+<p>This task makes 3 plates which will be used to mount the camera.</p>
+<ul>
+<li>The bottom plate goes on the exterior of the fuselage.</li>
+<li>The middle plate goes inside the fuselage, on the floor, and bolts to the bottom plate.</li>
+<li>The top plate sits above the middle plate, and they are attached to each other by damping balls.  </li>
+</ul>
+<p>The plates can be 3d printed from the files in this project, or they can be fabricated out of thin plywood (.11" or 3mm) or another thin material.</p>
+<p>After assembly the bottom plate will not be aligned with the other two plates -- It is 20mm longer, and the front edge of the bottom plate is shifted 25mm (1") forward of the other two. You could also say the holes in the bottom plate are shifted 15mm to the rear. The image below is for reference; in this task you are only making the plates. The extra material on the bottom plate helps it mate with the shape of the <a href="../../parts/airframe/">mini talon</a>.<br />
+<img alt="camera mount without fuselage" src="../../images/camera_mount.jpg" />  </p>
+<p><strong>Dimensions:</strong> x and y are measured from the camera hole centers. x is side-to-side and y is forward/back.</p>
+<table>
+<thead>
+<tr>
+<th>plate</th>
+<th>length</th>
+<th>width</th>
+<th>hole shift</th>
+<th>camera hole dia</th>
+<th>notch dia</th>
+<th>bolt1 dia</th>
+<th>bolt1 x&amp;y</th>
+<th>bolt2 dia</th>
+<th>bolt2 x</th>
+<th>bolt2 y</th>
+<th>damper dia</th>
+<th>damper x</th>
+<th>damper y</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>top</strong></td>
+<td>66</td>
+<td>58</td>
+<td>0</td>
+<td><strong>32</strong></td>
+<td><strong>12</strong></td>
+<td>2.5</td>
+<td>15</td>
+<td><strong>6</strong></td>
+<td>24</td>
+<td>12</td>
+<td>10</td>
+<td>19</td>
+<td>23</td>
+</tr>
+<tr>
+<td><strong>middle</strong></td>
+<td>66</td>
+<td>58</td>
+<td>0</td>
+<td>38</td>
+<td>9.5</td>
+<td></td>
+<td></td>
+<td>3.5</td>
+<td>24</td>
+<td>12</td>
+<td>10</td>
+<td>19</td>
+<td>23</td>
+</tr>
+<tr>
+<td><strong>bottom</strong></td>
+<td><strong>86</strong></td>
+<td>58</td>
+<td><strong>15</strong></td>
+<td>38</td>
+<td>9.5</td>
+<td></td>
+<td></td>
+<td>3.5</td>
+<td>24</td>
+<td>12</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>All three plates have a notch on the left side of the lens hole. The notches give clearance for assembly and for the knobs on the camera lens. The notches can also be a starting point for cutting the lens holes.  </p>
+<h2 id="steps">steps</h2>
+<p><strong>here's one way</strong></p>
+<ol>
+<li>start with three pieces that are longer and/or wider than needed. The extra material can be helpful to hold the pieces when cutting and drilling.  </li>
+<li><strong>all 3</strong> plates: mark the cut lines for length/width, per the table above.</li>
+<li><strong>all 3</strong> plates: Label the front and top of each plate. For example, write "fwd top bot" on the top of the forward-end of the bottom_plate.</li>
+<li><strong>top and middle</strong> plates: mark the camera hole center (in the middle of the plate)</li>
+<li><strong>bottom</strong> plate: mark the camera hole center (15mm back from the middle of the plate)</li>
+<li>Mark the lens hole circumferences -- 32 mm dia for the <strong>top</strong> plate, 38 mm dia for the <strong>other two</strong> plates.</li>
+<li><strong>Top</strong> plate: mark the centers of the 4 "bolt1" holes that will align with the bolt holes on the raspberry pi camera. You can use the camera as a template, or just measure from the plate center: +/- 15mm in the x direction (side-to-side) and +/- 15mm in the y direction. You can label them "b1" for reference.</li>
+<li><strong>All 3</strong> plates: mark the centers of the 4 "bolt2" holes. Measured from the camera center they are +/- 24 mm to each side and +/- 12 mm forward/back. You can label them "b2" for reference.</li>
+<li><strong>Top and mid</strong> plates: mark the centers of the 4 "damper" holes. Measured from the camera center they are +/- 19 mm to each side and +/- 23 mm forward/back. You can label them "d" for reference.</li>
+<li>Optional: line the plates up next to each other and see if the hole markings seem to line-up. See image above for reference.</li>
+<li><strong>top plate</strong>: drill the notch, 12mm diameter. It will be located 16mm left of center, aligning with the left edge of the camera hole.</li>
+<li><strong>mid and bot</strong> plate: drill the notch, 9.5mm diameter. Each will be located 19mm left of center, aligning with the left edge of each camera hole.</li>
+<li><strong>top</strong> plate: cut the lens hole, 32mm dia. You can use the notch as a starting place for a small saw blade, like on a hobby table saw.</li>
+<li><strong>mid &amp; bot</strong> plates: cut the lens hole, 38mm dia.</li>
+<li><strong>top</strong> plate: drill the "bolt1" holes (4x). 2.5mm (3/32") dia.</li>
+<li><strong>top &amp; mid</strong> plates: drill "damper" holes (4x each). 10mm (3/8") dia.</li>
+<li><strong>top plate</strong>: drill the "bolt2" holes (4x). 6mm (15/64") dia. The 6mm diameter allows the entire bolt, including the head, to be inserted all the way through the top plate where it will rest on the lower mid plate.</li>
+<li><strong>top &amp; mid</strong> plates: drill the "bolt2" holes (4x each). 3.5mm (9/64") dia.</li>
+<li>cut <strong>all 3</strong> plates to their final lengths and widths.</li>
+<li>Optional: Check that the bottom plate fits well with the bottom of the fuselage.</li>
+<li>Optional: Make sure all of the holes line-up for future assembly. See image above.</li>
+<li>Deburr any sharp edges.</li>
+</ol></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

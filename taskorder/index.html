@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Paul Schickler">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Tasks - Mapping Mozzie</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="..">Mapping Mozzie</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../partslist/" class="nav-link">Parts</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Tasks</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../toolsetc/" class="nav-link">Tools & Supplies</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../safety/" class="nav-link">Safety</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../partslist/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../toolsetc/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#task-order" class="nav-link">Task Order</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#round-one" class="nav-link">Round One</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#round-two" class="nav-link">Round Two</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#round-three" class="nav-link">Round Three</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#round-four" class="nav-link">Round Four+</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="task-order">Task Order</h1>
+<p>Column notes:</p>
+<ul>
+<li>Parts reqd: Shows purchased parts from the parts list that are required for the task. It generally does not list parts that were used in a previous task. It also does not list tools etc.</li>
+<li>Involves: This may be useful for grouping tasks. For example, refer to it to concurrently do all of the tasks that require soldering.</li>
+<li>Est time: In minutes. The times might be way off. Some times, indicated by **, do not take into account time required for glue to dry, during the task.</li>
+</ul>
+<h2 id="round-one">Round One</h2>
+<p>These tasks have no preceding tasks and can be done concurrently.</p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Parts reqd</th>
+<th>Involves</th>
+<th align="right">Est time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../tasks/bec_prep/">BEC Prep</a></td>
+<td><a href="../parts/bec/">BECs</a></td>
+<td>-</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td><a href="../tasks/xtwires/">XT to wires</a></td>
+<td><a href="../parts/xt/">XT connectors</a>, <a href="../parts/tapeetc/">heat shrink</a>, <a href="../parts/wire/">wire</a></td>
+<td>wire prep, solder, heat shrink</td>
+<td align="right">90</td>
+</tr>
+<tr>
+<td><a href="../tasks/xtparts/">XT to parts</a></td>
+<td><a href="../parts/xt/">XT connectors</a>, <a href="../parts/tapeetc/">heat shrink</a>, <a href="../parts/bec/">BECs</a>, <a href="../parts/quadesc/">Quad ESCs</a></td>
+<td>wire prep, solder, heat shrink</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td><a href="../tasks/cameraplates/">camera mount plates</a></td>
+<td><a href="../parts/camerawood/">Camera wood</a></td>
+<td>cutting, drilling (or 3D print)</td>
+<td align="right">120</td>
+</tr>
+<tr>
+<td><a href="../tasks/radio_mount/">radio mount</a></td>
+<td><a href="../parts/airframe/">airframe</a>, <a href="../parts/radio/">radio</a></td>
+<td>-</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td><a href="../tasks/planemotor_mount/">plane motor mount</a></td>
+<td><a href="../parts/airframe/">airframe</a> (one wood piece), <a href="../parts/planemotor/">plane motor &amp; prop &amp; holder &amp; bushing &amp; stop</a>, <a href="../parts/screwsetc/">M3 8mm screws &amp; nuts</a></td>
+<td>cutting, drilling</td>
+<td align="right">45</td>
+</tr>
+<tr>
+<td><a href="../tasks/quadesc_solder/">quad ESC solder</a></td>
+<td><a href="../parts/quadesc/">quad ESCs</a>, <a href="../parts/quadmotor/">quad motors</a></td>
+<td>soldering</td>
+<td align="right">60</td>
+</tr>
+<tr>
+<td><a href="../tasks/bracket_prep/">bracket prep</a></td>
+<td><a href="../parts/brackets/">small brackets</a></td>
+<td>drilling and/or cutting (or 3D print)</td>
+<td align="right">60</td>
+</tr>
+<tr>
+<td><a href="../tasks/airspeed_prep/">airspeed prep</a></td>
+<td><a href="../parts/airframe/">airframe</a>, <a href="../parts/airspeed/">airspeed sensor</a></td>
+<td>-</td>
+<td align="right">15</td>
+</tr>
+<tr>
+<td><a href="../tasks/servo_setup/">servo setup</a></td>
+<td><a href="../parts/servos/">servos</a>, <a href="../parts/battery/">battery</a>, <a href="../parts/xt/">XT90 to XT60 adapter</a>, <a href="../parts/bec/">BEC</a></td>
+<td>-</td>
+<td align="right">15</td>
+</tr>
+<tr>
+<td><a href="../tasks/gps_mount/">GPS mount</a></td>
+<td><a href="../parts/flightcontroller/">GPS</a> (included with flight controller), <a href="../parts/airframe/">airframe</a>, <a href="../parts/tapeetc/">tapes</a></td>
+<td>-</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td><a href="../tasks/wood_frame/">wood frame</a></td>
+<td><a href="../parts/airframe/">airframe</a></td>
+<td>-</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td><a href="../tasks/receiver_bind/">receiver bind to transmitter</a></td>
+<td><a href="../parts/receiver/">receiver</a>, <a href="../parts/flightcontroller/">flight controller</a></td>
+<td>-</td>
+<td align="right">15</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
+<p>*The estimated times might be way off.</p>
+<h2 id="round-two">Round Two</h2>
+<p>These tasks requires at least one "Round One" task to be done first.</p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Parts reqd</th>
+<th>Preceding Tasks</th>
+<th>Involves</th>
+<th align="right">Est time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../tasks/quadarm_prep/">quadarm prep</a></td>
+<td><a href="../parts/quadarm/">quadarm material</a>, <a href="../parts/screwsetc/">hardware</a></td>
+<td><a href="../tasks/bracket_prep/">bracket prep</a></td>
+<td>cutting, drilling (incl of pultruded carbon fiber), maybe 3D printing</td>
+<td align="right">120</td>
+</tr>
+<tr>
+<td><a href="../tasks/camera_assemble/">camera assemble</a></td>
+<td><a href="../parts/camera/">camera, lens</a>, <a href="../parts/cameradampers/">dampers</a>, <a href="../parts/screwsetc/">2-56 screws &amp; nuts</a></td>
+<td><a href="../tasks/cameraplates/">camera mount plates</a></td>
+<td>-</td>
+<td align="right">15</td>
+</tr>
+<tr>
+<td><a href="../tasks/planeesc_mount/">plane ESC mount</a></td>
+<td><a href="../parts/airframe/">airframe</a>, <a href="../parts/planeesc/">plane ESC</a>, <a href="../parts/tapeetc/">glue &amp; velcro tape</a></td>
+<td><a href="../tasks/planemotor_mount/">plane motor mount</a></td>
+<td>-</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td><a href="../tasks/fuselage_prep/">fuselage prep</a></td>
+<td><a href="../parts/airframe/">airframe</a>, <a href="../parts/screwsetc/">spacers</a>, <a href="../parts/flightcontroller/">GPS</a></td>
+<td><a href="../tasks/quadarm_prep/">quadarm prep</a>, <a href="../tasks/cameraplates/">camera plates</a></td>
+<td>-</td>
+<td align="right">60</td>
+</tr>
+<tr>
+<td><a href="../tasks/receiver_mount/">receiver mount</a></td>
+<td><a href="../parts/airframe/">airframe</a>, <a href="../parts/receiver/">receiver</a>, <a href="../parts/tapeetc/">tape &amp; velcro tape</a></td>
+<td><a href="../tasks/receiver_bind/">receiver bind</a></td>
+<td>-</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td><a href="../tasks/nodes/">power loom nodes</a></td>
+<td><a href="../parts/wire/">wire</a>, <a href="../parts/tapeetc/">heat shrink</a>, <a href="../parts/flightcontroller/">PM02 incl with flight controller</a></td>
+<td><a href="../tasks/xtwires/">XT to wires</a></td>
+<td>wire prep, solder, heat shrink</td>
+<td align="right">120</td>
+</tr>
+<tr>
+<td><a href="../tasks/radio_wires/">radio wires</a></td>
+<td><a href="../parts/radio/">radio</a></td>
+<td><a href="../tasks/bec_prep/">BEC prep</a></td>
+<td>-</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td><a href="../tasks/tail_setup/">tail setup</a></td>
+<td><a href="../parts/airframe/">airframe</a>, <a href="../parts/radioantenna/">radio antenna</a>, <a href="../parts/tapeetc/">glue &amp; tape</a>, <a href="../parts/servoext/">servo lead extensions</a></td>
+<td><a href="../tasks/servo_setup/">servo setup</a></td>
+<td>gluing</td>
+<td align="right">60**</td>
+</tr>
+<tr>
+<td><a href="../tasks/wing_setup/">wing setup</a></td>
+<td><a href="../parts/airframe/">airframe</a>, <a href="../parts/tapeetc/">glue &amp; tape</a>, <a href="../parts/servoext/">servo lead extensions</a></td>
+<td><a href="../tasks/servo_setup/">servo setup</a>, <a href="../tasks/gps_mount/">GPS mount</a></td>
+<td>gluing</td>
+<td align="right">45**</td>
+</tr>
+<tr>
+<td><a href="../tasks/frame_brackets/">frame brackets</a></td>
+<td><a href="../parts/flightcontroller/">flight controller</a>, <a href="../parts/screwsetc/">screws</a></td>
+<td><a href="../tasks/bracket_prep/">bracket prep</a>, <a href="../tasks/wood_frame/">wood frame</a></td>
+<td>-</td>
+<td align="right">20</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
+<p>*The estimated times might be way off.<br />
+**Does not take into account time required for glue to dry, during the task.</p>
+<h2 id="round-three">Round Three</h2>
+<p>These tasks requires at least one "Round Two" task to be done first.</p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Parts reqd</th>
+<th>Preceding Tasks</th>
+<th>Involves</th>
+<th align="right">Est time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../tasks/quadarm_assemble/">quadarm assemble</a></td>
+<td><a href="../parts/tapeetc/">heat shrink</a>. <a href="../parts/screwsetc/">screws</a></td>
+<td><a href="../tasks/quadarm_prep/">quadarm prep</a>, <a href="../tasks/quadesc_solder/">quad ESC solder</a></td>
+<td>heat shrink</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td><a href="../tasks/battery_velcro/">battery velcro</a></td>
+<td>battery, airframe, velcro straps, velcro tape</td>
+<td><a href="../tasks/receiver_mount/">receiver mount</a></td>
+<td>-</td>
+<td align="right">20</td>
+</tr>
+<tr>
+<td><a href="../tasks/tail_glue/">tail glue</a></td>
+<td><a href="../parts/airframe/">airframe</a>, <a href="../parts/tapeetc/">glue</a></td>
+<td><a href="../tasks/tail_setup/">tail setup</a></td>
+<td>gluing</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="round-four">Round Four+</h2>
+<p>Remaining tasks and rounds.</p>
+<table>
+<thead>
+<tr>
+<th>Round</th>
+<th>Task</th>
+<th>Parts reqd</th>
+<th>Preceding Tasks</th>
+<th>Involves</th>
+<th align="right">Est time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td><a href="../tasks/airframe_close/">Airframe Close</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="../tasks/finish_build/">finish build</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
