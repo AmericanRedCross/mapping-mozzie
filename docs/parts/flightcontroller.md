@@ -8,6 +8,6 @@ The bundle **includes all of** the following:
 * EXT-8P-V1.0 connectors. These two connectors and associated cables facilitate connecting the Pixhawk to the servos, quad ESCs, and plane ESC.
 * various other cables (incl USB), connectors and hardware.
 * foam mounting tape
-* Micro SD Card
+* Micro SD Card: 8GB (HC high capacity) Class 4. "SD cards are most commonly used to log and analyse flight details... The SanDisk Extreme U3 32GB is highly recommended" per [px4 documentation](https://docs.px4.io/v1.9.0/en/assembly/quick_start_pixhawk4.html).
 
 All of the above are included in the bundle, Item Code 20068 (SKU20068).

@@ -6,7 +6,7 @@ Reminder: [work safely](../safety.md), including when working with carbon fiber.
 ![quad arm overview](../images/quadarm.jpg)
 
 #### Initial cut and drill
-1. Cut 2 pieces 400 mm in length, and cut 2 pieces 70mm in length. The resulting pieces are the two arms that hold the quad motors plus two mounting backplates.
+1. Cut 2 pieces 400 mm in length, and cut 2 pieces 70mm in length. The resulting pieces are the two arms that hold the quad motors plus two mounting backplates. Use a fine tooth saw. Protect your eyes, skin and lungs.
 2. Drill a 9/64" dia hole in the centers of the four pieces.
 
 #### drill holes for fuselage mount

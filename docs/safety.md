@@ -2,8 +2,9 @@
 Don't start this project unless you know what you are doing, and know how to do it safely. It is not feasible to fully address proper safety practices here, but below are a few safety reminders:
 
 ## Battery Safety
-* Lipo batteries can be very dangerous, even when they are not being used. Make sure you know what you are doing and take proper safety precautions. They can unexpectedly combust and start **dangerous fires (with dangerous smoke)**.
+* Lipo batteries can be very dangerous, even when they are not being used. Make sure you take proper safety precautions. They can unexpectedly combust and start **dangerous fires (with dangerous smoke)**.
 * Never charge them unattended.
+* Charge Lipo batteries with a Lipo compatible charger.
 * Always store them in a safe place in something like an ammo box and at a proper storage charge.
 * If one catches fire, do not use water. Use sand or an appropriate fire extinguisher. Don't breathe the smoke.
 * Transport in lipo safe bags. Transport in a carry-on bag that you can monitor.
